@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p>© 2021</p>
+      <p>&copy; 2025 CHENS29. All rights reserved.</p>
     </footer>
   );
 }

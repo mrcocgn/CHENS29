@@ -1,12 +1,11 @@
 import Layout from './template/Layout';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <Layout />
-    </>
-  )
+    <Layout>
+      <div>Willkommen bei CHENS29!</div> {/* Beispielinhalt */}
+    </Layout>
+  );
 }
 
 export default App;

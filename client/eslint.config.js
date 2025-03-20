@@ -27,8 +27,7 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
-      ],
-      "no-unused-vars": ["error", { "varsIgnorePattern": "motion" }]
+      ]
     },
   },
 ]
