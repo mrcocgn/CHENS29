@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Poppins, normal;
+    font-family: 'Poppins', normal;
 }
 
 @font-face {
-    font-family: 'Poppins', regular;
+    font-family: 'Poppins', normal;
     src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
     font-family: normal;
     font-weight: normal;

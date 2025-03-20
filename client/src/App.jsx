@@ -1,14 +1,10 @@
-import Login from "./supabase/login"
-import Logout from "./supabase/logout"
-import UserProfile from "./supabase/userProfile"
+import Layout from './template/Layout';
 
 function App() {
 
   return (
     <>
-      <Login />
-      <Logout />
-      <UserProfile />
+      <Layout />
     </>
   )
 }
