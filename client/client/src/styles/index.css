@@ -1,7 +1,22 @@
+:root {
+    --color-text: #8BC34A;      
+    --color-bg: #2E2E2E;         
+    --color-accent: #A5D6A7;      
+    --color-secondary: #424242;   
+    --color-border: #3A3A3A;      
+    --color-hover: #9CCC65;       
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', normal;
+    color: var(--color-text);
+}
+
+body{
+    background-color: var(--color-bg);
 }
 
 @font-face {

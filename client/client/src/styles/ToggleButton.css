@@ -1,0 +1,12 @@
+#toggle-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

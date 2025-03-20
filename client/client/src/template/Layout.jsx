@@ -1,5 +1,5 @@
 import Header from './Header';
-import Footer from './Footer';
+import FooterMenu from './FooterMenu';
 import React from 'react';
 
 const Layout = ({ children }) => {
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <main>
         {children}
       </main>
-      <Footer />
+      <FooterMenu />
     </>
   );
 }
