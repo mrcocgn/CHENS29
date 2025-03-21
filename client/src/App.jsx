@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Products from './pages/Products';
 import CheckOut from "./pages/CheckOut";
 import UserProfile from './supabase/UserProfile';
+import AdminDashboard from './admin/AdminDashboard';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/profile" element={<UserProfile />} />
         <Route path="/checkout" element={<CheckOut />} />
+        <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </Layout>
   );
