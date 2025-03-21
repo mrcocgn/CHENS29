@@ -1,11 +1,11 @@
 import '../styles/Header.css';
-import ToggleButton from '../components/ToggleButton';
+import AsideToggle from './AsideToggle';
 
 const Header = () => { 
   return (
     <header>
       <h1>CHENS29</h1>
-      <ToggleButton />
+      <AsideToggle />
     </header>
   );
 }

@@ -5,7 +5,7 @@ import React from 'react'
 import Home from "./pages/Home";
 import Products from './pages/Products';
 import CheckOut from "./pages/CheckOut";
-import Profile from './pages/Profile';
+import UserProfile from './supabase/UserProfile';
 
 
 const App = () => {
